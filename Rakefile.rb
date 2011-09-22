@@ -25,7 +25,7 @@ Hoe.spec 'adcenter-client' do |h|
   h.developer('Josh Peck', 'jmp@joshpeck.org')
   h.rubyforge_name = 'adcenter-client'
   h.extra_deps << [ 'soap4r', '>= 1.5.8' ]
-  h.extra_deps << [ 'hoe', '>= 2.8.0' ]
+  h.extra_deps << [ 'hoe-heroku', '>= 2.8.0' ]
 end
 
 # vim: syntax=ruby
